@@ -67,6 +67,26 @@ if [ -d "${APP_DIR}/upload" ]; then
 fi
 
 # ---------------------------------------------------------
+# Apache MPM fix
+# ---------------------------------------------------------
+
+echo "Forcing Apache MPM to prefork..."
+
+rm -f /etc/apache2/mods-enabled/mpm_event.load
+rm -f /etc/apache2/mods-enabled/mpm_event.conf
+rm -f /etc/apache2/mods-enabled/mpm_worker.load
+rm -f /etc/apache2/mods-enabled/mpm_worker.conf
+
+ln -sf ../mods-available/mpm_prefork.load \
+    /etc/apache2/mods-enabled/mpm_prefork.load
+
+ln -sf ../mods-available/mpm_prefork.conf \
+    /etc/apache2/mods-enabled/mpm_prefork.conf
+
+echo "Enabled MPM modules:"
+ls -la /etc/apache2/mods-enabled/mpm_* || true
+
+# ---------------------------------------------------------
 # Apache - Railway PORT
 # ---------------------------------------------------------
 
