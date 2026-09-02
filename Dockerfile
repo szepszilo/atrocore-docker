@@ -18,6 +18,9 @@ RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
     && pecl install xattr imagick \
     && docker-php-ext-enable xattr imagick \
     && a2enmod rewrite \
+    && (a2dismod mpm_event || true) \
+    && (a2dismod mpm_worker || true) \
+    && a2enmod mpm_prefork \
     && a2dissite 000-default \
     && rm -rf /var/lib/apt/lists/*
 
