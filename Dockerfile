@@ -28,8 +28,12 @@ RUN git clone --depth 1 \
     && php atrocore-installer.phar update \
     && find . -type d -exec chmod 755 {} + \
     && find . -type f -exec chmod 644 {} + \
-    && find client data upload -type d -exec chmod 775 {} + \
-    && find client data upload -type f -exec chmod 664 {} +
+    && for dir in client data upload; do \
+         if [ -d "$dir" ]; then \
+           find "$dir" -type d -exec chmod 775 {} +; \
+           find "$dir" -type f -exec chmod 664 {} +; \
+         fi; \
+       done
 
 COPY railway/configure-runtime.php /usr/local/bin/atrocore-configure-runtime.php
 COPY railway/startup.sh /usr/local/bin/atrocore-railway-startup
