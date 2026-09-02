@@ -37,7 +37,43 @@ else
     echo "Existing AtroCore installation detected."
     echo "Skipping template copy."
 fi
+# ---------------------------------------------------------
+# Frontend assetek ellenőrzése / javítása
+# ---------------------------------------------------------
 
+echo "Checking AtroCore frontend assets..."
+
+if [ ! -f "${APP_DIR}/public/client/app.min.js" ]; then
+    echo "Frontend assets are missing."
+    echo "Restoring public/client from Docker image..."
+
+    mkdir -p "${APP_DIR}/public/client"
+
+    # Ha van saját frontend customizáció, mentsük meg.
+    if [ -d "${APP_DIR}/public/client/custom" ]; then
+        rm -rf /tmp/atrocore-client-custom
+        cp -a "${APP_DIR}/public/client/custom" /tmp/atrocore-client-custom
+    fi
+
+    rm -rf "${APP_DIR}/public/client"
+    cp -a "${TEMPLATE_DIR}/public/client" "${APP_DIR}/public/client"
+
+    # Saját custom fájlok visszaállítása.
+    if [ -d /tmp/atrocore-client-custom ]; then
+        mkdir -p "${APP_DIR}/public/client/custom"
+        cp -a /tmp/atrocore-client-custom/. \
+            "${APP_DIR}/public/client/custom/"
+    fi
+
+    echo "Frontend assets restored."
+else
+    echo "Frontend assets found."
+fi
+
+echo "Frontend check:"
+ls -lh "${APP_DIR}/public/client/app.min.js" || true
+ls -lh "${APP_DIR}/public/client/atro.min.js" || true
+ls -lh "${APP_DIR}/public/client/css/style.css" || true
 # ---------------------------------------------------------
 # PostgreSQL konfiguráció
 # ---------------------------------------------------------
