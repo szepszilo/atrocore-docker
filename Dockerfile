@@ -20,9 +20,18 @@ RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
     && a2dissite 000-default \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone --depth 1 \
-    https://github.com/atrocore/skeleton-pim-no-demo.git \
-    /opt/atrocore-template \
+RUN mkdir -p /opt/atrocore-template \
+    && curl \
+        --fail \
+        --silent \
+        --show-error \
+        --location \
+        --retry 5 \
+        --retry-delay 2 \
+        "https://codeload.github.com/atrocore/skeleton-pim-no-demo/tar.gz/refs/heads/master" \
+        | tar -xz \
+            --strip-components=1 \
+            -C /opt/atrocore-template \
     && cd /opt/atrocore-template \
     && php atrocore-installer.phar self-update \
     && php atrocore-installer.phar update \
