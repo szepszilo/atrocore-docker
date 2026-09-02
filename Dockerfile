@@ -5,8 +5,8 @@ LABEL maintainer="AtroCore Railway PoC"
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
     && printf "memory_limit = 512M\nmax_execution_time = 180\nmax_input_time = 180\npost_max_size = 64M\nupload_max_filesize = 64M\n" >> "$PHP_INI_DIR/php.ini" \
     && apt-get update \
-    && apt-get install -y --no-install-recommends \
-        git cron postgresql-client zip unzip build-essential locales \
+    apt-get install -y --no-install-recommends \
+        git curl ca-certificates cron postgresql-client zip unzip build-essential locales \
         libcurl4 libcurl4-openssl-dev libsodium-dev \
         libfreetype-dev libjpeg62-turbo-dev libpng-dev libpq-dev \
         libavif-dev libattr1-dev libonig-dev libzip-dev zlib1g-dev \
