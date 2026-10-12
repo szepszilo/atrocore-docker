@@ -1,0 +1,52 @@
+{
+  "fields": {
+    "host": "Gépnév",
+    "dbname": "Adatbázis neve",
+    "user": "Adatbázis felhasználóneve",
+    "username": "Felhasználónév",
+    "password": "Jelszó",
+    "confirmPassword": "Jelszó megerősítése"
+  },
+  "labels": {
+    "licenseAgreement": "Licencszerződés",
+    "databaseConfiguration": "Adatbázis konfigurációja",
+    "administratorSetup": "Adminisztrátor beállítása",
+    "requiredSettings": "Kötelező beállítások",
+    "chooseYourLanguage": "Válassza ki a nyelvet",
+    "acceptTheAgreement": "Elfogadom a szerződést",
+    "reportingEnabled": "Névtelen hibajelentések küldése a problémák gyorsabb felismeréséhez és megoldásához",
+    "dbSystem": "Adatbázisrendszer",
+    "hostName": "Gépnév",
+    "databaseName": "Adatbázis neve",
+    "databaseUserName": "Adatbázis felhasználóneve",
+    "databaseUserPassword": "Adatbázis-felhasználó jelszava",
+    "port": "Port",
+    "testConnection": "Kapcsolat tesztelése",
+    "reCheck": "Újraellenőrzés",
+    "userName": "Felhasználónév",
+    "password": "Jelszó",
+    "confirmYourPassword": "Erősítse meg a jelszavát",
+    "back": "Vissza",
+    "next": "Tovább",
+    "finish": "Befejezés",
+    "required": "Kötelező",
+    "currentVersion": "Jelenlegi verzió",
+    "status": "Állapot"
+  },
+  "errors": {
+    "alreadyInstalled": "Az AtroCore már telepítve van",
+    "differentPass": "A jelszavak eltérnek",
+    "notCorrectDatabaseConfig": "Érvénytelen adatbázis-beállítások",
+    "filePermissionsError": "Nincsenek megfelelő fájljogosultságai. Állítsa be a jogosultságokat az útmutató szerint."
+  },
+  "messages": {
+    "youMustAgreeToTheLicenseAgreement": "El kell fogadnia a licencszerződést",
+    "fieldIsRequired": "A(z) {field} megadása kötelező",
+    "connectionSuccessful": "Sikeres kapcsolódás!",
+    "pleaseConfigureYourSystemToStart": "Az induláshoz állítsa be a rendszert"
+  },
+  "requirements": {
+    "phpVersion": "PHP-verzió",
+    "mysqlVersion": "MySQL-verzió"
+  }
+}

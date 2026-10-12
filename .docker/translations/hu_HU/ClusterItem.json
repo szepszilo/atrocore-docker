@@ -1,0 +1,51 @@
+{
+  "labels": {
+    "consolidatedAutomatically": "Automatikusan konszolidálva",
+    "selectTargetCluster": "Célklaszter kiválasztása",
+    "moveToCluster": "Áthelyezés klaszterbe"
+  },
+  "fields": {
+    "entityName": "Entitás neve",
+    "entityId": "Entitás azonosítója",
+    "record": "Rekord",
+    "cluster": "Klaszter",
+    "matchedRecord": "Egyező rekord",
+    "consolidatedAutomatically": "Automatikusan konszolidálva",
+    "matchedScore": "Egyezési pontszám"
+  },
+  "actions": {
+    "reject": "Elutasítás",
+    "consolidate": "Konszolidálás",
+    "deconsolidate": "Konszolidálás visszavonása",
+    "split": "Szétválasztás",
+    "move": "Áthelyezés"
+  },
+  "exceptions": {
+    "notFound": "A klaszterelem rekordja nem található",
+    "cannotUnreject": "Ennek a klaszterelemnek az elutasítása nem vonható vissza",
+    "itemsMustBelongToTheSameCluster": "Minden kiválasztott elemnek ugyanahhoz a klaszterhez kell tartoznia.",
+    "cannotDeconsolidateMasterEntityItem": "A törzsentitás elemének konszolidálása nem vonható vissza.",
+    "cannotSplitMasterEntityItem": "A törzsentitás eleme nem választható szét.",
+    "idOrIdListOrWhereRequired": "Adjon meg legalább egyet: azonosítót, azonosítólistát vagy keresési szűrőt.",
+    "targetClusterIdRequired": "A célklaszter megadása kötelező."
+  },
+  "massActions": {
+    "reject": "Elutasítás",
+    "deconsolidate": "Konszolidálás visszavonása",
+    "split": "Szétválasztás",
+    "move": "Áthelyezés",
+    "consolidate": "Konszolidálás"
+  },
+  "massActionSuccessMessages": {
+    "reject": "A kiválasztott klaszterelemek törlése a háttérben történik",
+    "deconsolidate": "A kiválasztott klaszterelemek konszolidálása visszavonva",
+    "split": "A kiválasztott klaszterelemek új klaszterbe kerültek",
+    "move": "A kiválasztott klaszterelemek áthelyezve",
+    "consolidate": "A kiválasztott klaszterelemek konszolidálva"
+  },
+  "massActionConfirmMessages": {
+    "reject": "Biztosan elutasítja a kiválasztott elemeket?",
+    "deconsolidate": "Biztosan visszavonja a kiválasztott elemek konszolidálását?",
+    "split": "Biztosan új klaszterbe helyezi a kiválasztott elemeket?"
+  }
+}

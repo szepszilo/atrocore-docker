@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "description": "Leírás",
+    "entity": "Entitás",
+    "notificationProfile": "Értesítési profil",
+    "occurrence": "Esemény",
+    "isActive": "Aktív",
+    "ignoreSelfAction": "Saját műveletek figyelmen kívül hagyása",
+    "asOwner": "Tulajdonosként",
+    "asFollower": "Követőként",
+    "asAssignee": "Hozzárendelt felhasználóként",
+    "asTeamMember": "Csapattagként",
+    "asNotificationProfile": "Az értesítési profil felhasználójaként",
+    "emailActive": "E-mailes értesítés",
+    "systemActive": "Rendszerértesítés",
+    "emailTemplateId": "E-mail-sablon",
+    "systemTemplateId": "Rendszersablon"
+  },
+  "options": {
+    "occurrence": {
+      "creation": "Létrehozás",
+      "updating": "Frissítés",
+      "linking": "Hivatkozás",
+      "unlinking": "Leválasztás",
+      "deletion": "Törlés",
+      "note_created": "Jegyzet létrehozása",
+      "note_updated": "Jegyzet frissítése",
+      "note_deleted": "Jegyzet törlése",
+      "ownership_assignment": "Tulajdonos/hozzárendelt felhasználó beállítása",
+      "unlinking_ownership_assignment": "Tulajdonos/hozzárendelt felhasználó törlése",
+      "mentioned": "Említés"
+    }
+  },
+  "labels": {
+    "Notify User": "Felhasználó értesítése",
+    "Transport": "Kézbesítési mód"
+  }
+}

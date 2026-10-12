@@ -1,0 +1,33 @@
+{
+  "labels": {
+    "Field": "Mező",
+    "currentUser": "Aktuális felhasználó"
+  },
+  "options": {
+    "operators": {
+      "equals": "Egyenlő",
+      "notEquals": "Nem egyenlő",
+      "greaterThan": "Nagyobb mint",
+      "lessThan": "Kisebb mint",
+      "greaterThanOrEquals": "Nagyobb vagy egyenlő",
+      "lessThanOrEquals": "Kisebb vagy egyenlő",
+      "in": "Eleme",
+      "notIn": "Nem eleme",
+      "inPast": "Múltbeli",
+      "inFuture": "Jövőbeli",
+      "isToday": "Mai",
+      "isTrue": "Igaz",
+      "isFalse": "Hamis",
+      "isEmpty": "Üres",
+      "isNotEmpty": "Nem üres",
+      "contains": "Tartalmazza",
+      "notContains": "Nem tartalmazza",
+      "has": "Tartalmazza",
+      "notHas": "Nem tartalmazza",
+      "isLinked": "Kapcsolódik",
+      "isNotLinked": "Nem kapcsolódik",
+      "inTeams": "Csapatokban",
+      "notInTeams": "Nincs a csapatokban"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "fields": {
+    "navigationManuBackgroundColor": "Navigációs menü háttere",
+    "navigationMenuFontColor": "Navigáció betűszíne",
+    "linkFontColor": "Hivatkozás színe",
+    "customStylesheetPath": "CSS-fájl elérési útja",
+    "customStylesheet": "CSS",
+    "primaryColor": "Elsődleges szín",
+    "secondaryColor": "Másodlagos szín",
+    "primaryFontColor": "Elsődleges betűszín",
+    "secondaryFontColor": "Másodlagos betűszín",
+    "labelColor": "Felirat színe",
+    "anchorNavigationBackground": "Horgonynavigáció háttere",
+    "iconColor": "Ikon színe",
+    "primaryBorderColor": "Elsődleges szegélyszín",
+    "secondaryBorderColor": "Másodlagos szegélyszín",
+    "panelTitleColor": "Panelcím színe",
+    "headerTitleColor": "Fejléc címének színe",
+    "success": "Sikeres",
+    "notice": "Figyelmeztetés",
+    "information": "Információ",
+    "error": "Hiba",
+    "actionIconColor": "Műveletikon színe",
+    "navigationIconColor": "Navigációs ikon színe",
+    "statusIconColor": "Állapotikon színe",
+    "customHeadCode": "Head kód",
+    "highlightingColorForRequired": "Kötelező adatok kiemelési színe",
+    "toolbarBackgroundColor": "Eszköztár háttérszíne",
+    "toolbarFontColor": "Eszköztár betűszíne"
+  },
+  "tooltips": {
+    "customStylesheetPath": "Az egyéni CSS-stílusok ebbe a fájlba kerülnek. A fájlt közvetlenül is módosíthatja.",
+    "customHeadCode": "Kód hozzáadása a <head> címke végéhez. Az Atrocore nem ellenőrzi az egyéni kódot, ezért közzététel előtt ellenőrizze azt."
+  },
+  "exceptions": {
+    "styleIsUsed": "Használatban lévő stílus nem távolítható el.",
+    "codeShouldBeString": "A kódnak érvényes karakterláncnak kell lennie, speciális karakterek és szóközök nélkül."
+  }
+}

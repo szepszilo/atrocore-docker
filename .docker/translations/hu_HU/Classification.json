@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "entity": "Entitás",
+    "description": "Leírás",
+    "release": "Kiadás",
+    "synonyms": "Szinonimák",
+    "isActive": "Aktív",
+    "classifications": "Osztályozások",
+    "classificationAttributes": "Osztályozási attribútumok",
+    "type": "Típus"
+  },
+  "options": {
+    "type": {
+      "general": "Általános"
+    }
+  },
+  "labels": {
+    "selectAttributeGroup": "Attribútumcsoport kiválasztása"
+  },
+  "actions": {
+    "unlinkRelatedAttribute": "Törlés, megtartás a rekordokban",
+    "cascadeUnlinkRelatedAttribute": "Törlés a rekordokból is"
+  },
+  "exceptions": {
+    "entityCannotBeChanged": "Az entitás nem módosítható.",
+    "classificationForToAnotherEntity": "Az osztályozás nem rendelhető ehhez a rekordhoz, mert másik entitáshoz használatos.",
+    "classificationHasRecords": "Kapcsolódó rekordokkal rendelkező osztályozás nem törölhető.",
+    "entityNotAllowToChoose": "Az entitás nem választható ki."
+  }
+}

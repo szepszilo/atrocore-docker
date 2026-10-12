@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "type": "Típus",
+    "path": "Elérési út",
+    "files": "Fájlok",
+    "folder": "Csatolt mappa",
+    "folders": "Mappák",
+    "syncFolders": "Fájl- és mappaszerkezet megtartása"
+  },
+  "options": {
+    "type": {
+      "local": "Helyi (Linux)"
+    }
+  },
+  "tooltips": {
+    "syncFolders": "Ha be van jelölve, a tárhely fizikai fájl- és mappaszerkezete megegyezik a rendszerével. Így ugyanazon az útvonalon csak egy azonos nevű fájl vagy mappa tárolható."
+  },
+  "labels": {
+    "scan": "Átvizsgálás",
+    "scanDone": "A(z) '%s' tárhely átvizsgálása befejeződött."
+  },
+  "exceptions": {
+    "itemCannotBeMovedToAnotherStorage": "Mappa vagy fájl nem helyezhető át tárhelyek között.",
+    "folderInUse": "Csak üres mappa választható csatolt mappának.",
+    "storageHasItems": "Nem üres tárhely csatolt mappája nem módosítható.",
+    "storagePathNotUnique": "A tárhely elérési útjának egyedinek kell lennie.",
+    "storagePathContainFilesFromAnotherStorage": "A kiválasztott tárhelyútvonalból kiinduló mappafa nem tartalmazhat másik tárhelyhez tartozó mappákat vagy fájlokat.",
+    "storageTypeCannotBeChanged": "A tárhely típusa nem módosítható.",
+    "storagePathCannotBeChanged": "A tárhely elérési útja nem módosítható.",
+    "folderUsedByOtherStorage": "Ezt a mappát már másik tárhely használja."
+  }
+}

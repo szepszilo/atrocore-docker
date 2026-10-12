@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "username": "Felhasználónév",
+    "ipAddress": "IP-cím",
+    "requestTime": "Kérés időtartama",
+    "createdAt": "Kérés ideje",
+    "isDenied": "Elutasítva",
+    "denialReason": "Elutasítás oka",
+    "user": "Felhasználó",
+    "authToken": "Hitelesítési token létrehozva",
+    "requestUrl": "Kérés URL-címe",
+    "requestMethod": "Kérés metódusa",
+    "authTokenIsActive": "A hitelesítési token aktív",
+    "actionHistoryRecords": "Műveleti előzmények"
+  },
+  "options": {
+    "denialReason": {
+      "CREDENTIALS": "Érvénytelen hitelesítő adatok",
+      "INACTIVE_USER": "Inaktív felhasználó"
+    }
+  }
+}

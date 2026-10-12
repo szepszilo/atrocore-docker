@@ -1,0 +1,34 @@
+{
+  "labels": {
+    "sourceEntities": "Forrásból átmeneti entitásba vezető folyamatok"
+  },
+  "fields": {
+    "consolidationScript": "Konszolidálási szkript",
+    "updateMasterAutomatically": "Törzs automatikus frissítése",
+    "minimumMatchingScore": "Minimális egyezési pontszám",
+    "consolidateAutomatically": "Automatikus konszolidálás",
+    "deleteInvalidMastersAutomatically": "Érvénytelen törzsrekordok automatikus törlése",
+    "executeConsolidationAs": "Konszolidálás végrehajtása e felhasználóként",
+    "skipCondition": "Kihagyási feltétel"
+  },
+  "tooltips": {
+    "name": "Csak olyan törzsentitások választhatók, amelyeknek már van Adatközlő szerepkörű származtatott entitásuk.",
+    "consolidationScript": "Állítsa be, hogyan történjen a forrásadatok átalakítása, egységesítése és leképezése a törzsrekordra. A szkriptnek a törzsrekord mezőértékeit tartalmazó JSON-objektumot kell visszaadnia.",
+    "executeConsolidationAs": "A konszolidálási szkript végrehajtásához használt felhasználói fiók.",
+    "skipCondition": "ExpressionLanguage-kifejezés, amely minden jelöltre kiértékelődik, és hozzáfér a `candidate` és a `masterRecord` értékhez (utóbbi üres, amíg a törzsrekord nem jött létre). Azok a jelöltek, amelyeknél true értéket ad, kimaradnak a konszolidálási szkript `candidates` értékéből. Ha nem marad jelölt, a törzsrekord nem jön létre és nem frissül. Például: candidate.get('name') == null."
+  },
+  "options": {
+    "executeConsolidationAs": {
+      "system": "Rendszer",
+      "sameUser": "Ugyanaz a felhasználó"
+    }
+  },
+  "exceptions": {
+    "consolidationScriptIsMissing": "Hiányzik a törzsentitás konszolidálási szkriptje",
+    "consolidationScriptIsNotValid": "A konszolidálási szkript érvénytelen adattartalmat adott vissza: %s",
+    "entityTypeInvalid": "A(z) \"%s\" entitástípus nem használható konszolidáláshoz",
+    "consolidationAlreadyExists": "A(z) \"%s\" konszolidálása már létezik",
+    "skipConditionFailed": "A kihagyási feltétel kiértékelése sikertelen: %s",
+    "allCandidatesSkipped": "A kihagyási feltétel minden jelöltet kizárt; nincs konszolidálható adat"
+  }
+}

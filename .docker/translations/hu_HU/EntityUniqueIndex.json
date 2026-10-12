@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "name": "Név",
+    "entity": "Entitás",
+    "fields": "Mezők",
+    "isCustom": "Egyéni"
+  },
+  "tooltips": {
+    "name": "Az egyedi index neve, pl. unique_relationship. Csak latin kisbetűk, számjegyek és aláhúzásjelek engedélyezettek.",
+    "fields": "Az egyedi indexet alkotó mezők. A `deleted` oszlop mindig az index első oszlopaként kerül hozzáadásra. Legalább két mező szükséges."
+  },
+  "exceptions": {
+    "indexNameIsInvalid": "Az egyedi index neve érvénytelen. Latin kisbetűvel kell kezdődnie, nem végződhet aláhúzásjelre, és csak latin kisbetűket, számjegyeket és aláhúzásjeleket tartalmazhat.",
+    "atLeastTwoFieldsRequired": "Az egyedi indexnek legalább két mezőből kell állnia. Egyetlen mező egyedivé tételéhez jelölje be az „Egyedi” jelölőnégyzetet a mező beállításainál.",
+    "indexFieldsShouldBeUnique": "Ugyanaz a mező nem szerepelhet kétszer az egyedi indexben.",
+    "fieldCannotBeUsedInUniqueIndex": "A(z) '%s' mezőnek nincs saját oszlopa a táblában, ezért nem használható egyedi indexben.",
+    "fieldTypeCannotBeUsedInUniqueIndex": "A(z) '%s' mező típusát az egyedi indexek nem támogatják.",
+    "duplicateValuesExist": "Az egyedi index nem hozható létre: a tábla már tartalmaz ismétlődő értékeket a kiválasztott mezőkhöz: %s",
+    "indexNameAlreadyUsed": "Már létezik '%s' nevű index ehhez az entitáshoz.",
+    "entityTypeIsNotSuitableForUniqueIndexes": "Egyedi indexek csak az Alap és Hierarchia entitásokhoz állíthatók be."
+  }
+}

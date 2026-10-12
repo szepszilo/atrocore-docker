@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "targetEntity": "Célentitás",
+    "sourceEntity": "Forrásentitás",
+    "mergingScript": "Összevonási szkript"
+  },
+  "tooltips": {
+    "mergingScript": "Állítsa be, hogyan történjen a forrásrekord adatainak átalakítása és leképezése a célrekordra."
+  },
+  "exceptions": {
+    "sourceEntityCannotBeContributorOrChangeRequestDerivative": "A(z) '%s' entitás adatközlő vagy módosítási kérelem származtatott entitása, ezért nem használható forrásentitásként.",
+    "sourceEntityTypeNotAllowed": "A(z) '%s' entitás nem használható forrásentitásként: csak Alap és Hierarchia típusok engedélyezettek.",
+    "targetEntityCannotBePrimaryOfContributorDerivative": "A(z) '%s' entitás egy adatközlő származtatott entitás elsődleges entitása, ezért nem használható célentitásként.",
+    "sourceAndTargetEntityCannotBeSame": "A forrásentitás és a célentitás nem lehet azonos.",
+    "dataPipelineAlreadyExists": "Ehhez az entitáspárhoz már létezik adatfeldolgozási folyamat."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "isActive": "Aktív",
+    "isDefault": "Alapértelmezett",
+    "description": "Leírás",
+    "hideShowFullList": "„Teljes lista megjelenítése” elrejtése a kapcsolati paneleken",
+    "layouts": "Elrendezések",
+    "parent": "Szülő elrendezésprofil",
+    "navigation": "Navigációs menü",
+    "favoritesList": "Kedvencek",
+    "dashboardLayout": "Irányítópult elrendezése"
+  },
+  "labels": {
+    "addGroup": "Csoport hozzáadása",
+    "Menu": "Menü",
+    "Dashboards": "Irányítópultok",
+    "Favorites": "Kedvencek"
+  },
+  "exceptions": {
+    "defaultIsRequired": "A rendszerben lennie kell alapértelmezett elrendezésprofilnak."
+  },
+  "messages": {
+    "profileWillBeNewDefault": "Ez a profil lesz az új alapértelmezett. Biztos benne?",
+    "navigationUpdate": "A rendszer módosította a navigációs menüt."
+  },
+  "boolFilters": {
+    "withLayouts": "Tárolt elrendezéssel"
+  }
+}

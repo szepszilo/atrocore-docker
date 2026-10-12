@@ -1,0 +1,90 @@
+{
+  "fields": {
+    "number": "Szám",
+    "masterEntity": "Törzsentitás",
+    "clusterItems": "Klaszterelemek",
+    "rejectedClusterItems": "Elutasított klaszterelemek",
+    "stagingItemCount": "Adatközlő elemek száma",
+    "masterItemCount": "Törzselemek száma",
+    "state": "Állapot"
+  },
+  "options": {
+    "state": {
+      "empty": "Üres",
+      "review": "Felülvizsgálat",
+      "consolidatedAutomatically": "Konszolidálva (automatikus)",
+      "consolidated": "Konszolidálva",
+      "invalid": "Érvénytelen"
+    }
+  },
+  "actions": {
+    "reject": "Elutasítás",
+    "consolidate": "Konszolidálás",
+    "unreject": "Elutasítás visszavonása",
+    "deconsolidate": "Konszolidálás visszavonása",
+    "split": "Szétválasztás",
+    "move": "Áthelyezés",
+    "purge": "Végleges kiürítés"
+  },
+  "massActions": {
+    "purge": "Végleges kiürítés"
+  },
+  "massActionConfirmMessages": {
+    "purge": "Biztosan véglegesen kiüríti a kiválasztott klasztereket? A művelet nem vonható vissza.",
+    "purgeAll": "Biztosan véglegesen kiüríti az összes klasztert? A művelet nem vonható vissza."
+  },
+  "actionConfirms": {
+    "purge": "Biztosan véglegesen kiüríti ezt a klasztert? A művelet nem vonható vissza."
+  },
+  "exceptions": {
+    "cannotDelete": "Csak üres klaszterek törölhetők",
+    "cannotMergeWithoutGoldenRecord": "Aranyrekord nélkül nem lehetséges az összevonás",
+    "noClusterItemsToPreview": "Nincs megjeleníthető előnézet: a klaszternek nincsenek adatközlő elemei",
+    "cannotPreviewInvalidCluster": "Érvénytelen klaszter konszolidálásának előnézete nem jeleníthető meg",
+    "clusterItemsNotInCluster": "A(z) %s klaszterelemek nem ehhez a klaszterhez tartoznak"
+  },
+  "messages": {
+    "noClusterFound": "Ehhez a rekordhoz nem található klaszter"
+  },
+  "labels": {
+    "contributorRecord": "adatközlő rekord",
+    "contributorRecords": "adatközlő rekordok",
+    "contributorRecordsPanel": "Adatközlő rekordok",
+    "masterRecord": "törzsrekord",
+    "masterRecords": "törzsrekordok",
+    "masterRecordsPanel": "Törzsrekordok",
+    "consolidated": "Konszolidálva",
+    "unconsolidated": "Nincs konszolidálva",
+    "rejected": "Elutasítva",
+    "consolidationPreview": "Konszolidálás előnézete",
+    "consolidationPreviewHint": "Megmutatja, hogyan nézne ki az aranyrekord konszolidálás után. Nem ment adatokat.",
+    "noConsolidationConfigured": "Ehhez az entitáshoz nincs konszolidálás beállítva",
+    "discard": "Elvetés"
+  },
+  "streamMessages": {
+    "clusterLinked": "{user} hozzárendelte a(z) {relatedEntity} elemet ehhez a klaszterhez",
+    "clusterLinkedThis": "{user} hozzárendelte a(z) {relatedEntity} elemet ehhez a klaszterhez",
+    "clusterUnlinked": "{user} leválasztotta a(z) {relatedEntity} elemet erről a klaszterről",
+    "clusterUnlinkedThis": "{user} leválasztotta a(z) {relatedEntity} elemet erről a klaszterről",
+    "clusterRejected": "{user} elutasította a(z) {relatedEntity} elemet ebben a klaszterben",
+    "clusterRejectedThis": "{user} elutasította a(z) {relatedEntity} elemet ebben a klaszterben",
+    "clusterReincluded": "{user} ismét bevonta a(z) {relatedEntity} elemet ebbe a klaszterbe",
+    "clusterReincludedThis": "{user} ismét bevonta a(z) {relatedEntity} elemet ebbe a klaszterbe",
+    "clusterMoved": "{user} áthelyezte a(z) {relatedEntity} elemet ebből a klaszterből",
+    "clusterMovedThis": "{user} áthelyezte a(z) {relatedEntity} elemet ebből a klaszterből",
+    "clusterConsolidated": "{user} konszolidálta a(z) {relatedEntity} elemet ebben a klaszterben",
+    "clusterConsolidatedThis": "{user} konszolidálta a(z) {relatedEntity} elemet ebben a klaszterben",
+    "clusterDeconsolidated": "{user} visszavonta a(z) {relatedEntity} elem konszolidálását ebben a klaszterben",
+    "clusterDeconsolidatedThis": "{user} visszavonta a(z) {relatedEntity} elem konszolidálását ebben a klaszterben",
+    "clusterGoldenRecord": "{user} aranyrekordként állította be a(z) {relatedEntity} elemet ebben a klaszterben",
+    "clusterGoldenRecordThis": "{user} aranyrekordként állította be a(z) {relatedEntity} elemet ebben a klaszterben",
+    "clusterDeleted": "{user} törölte ezt a klasztert",
+    "clusterDeletedThis": "{user} törölte ezt a klasztert",
+    "clusterRecordDeleted": "{user} törölte a(z) {relatedEntity} elemet ebből a klaszterből",
+    "clusterRecordDeletedThis": "{user} törölte a(z) {relatedEntity} elemet ebből a klaszterből",
+    "clusterMovedToCluster": "{user} áthelyezte a(z) {records} rekordokat a(z) {clusterLink} klaszterből a(z) {entity} entitásba",
+    "clusterMovedToClusterThis": "{user} áthelyezte a(z) {records} rekordokat a(z) {clusterLink} klaszterből ebbe a klaszterbe",
+    "clusterMovedFromCluster": "{user} áthelyezte a(z) {records} rekordokat a(z) {entity} entitásból a(z) {clusterLink} klaszterbe",
+    "clusterMovedFromClusterThis": "{user} áthelyezte a(z) {records} rekordokat ebből a klaszterből a(z) {clusterLink} klaszterbe"
+  }
+}

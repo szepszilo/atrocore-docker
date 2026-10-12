@@ -1,0 +1,93 @@
+{
+  "fields": {
+    "searchEntity": "Keresési entitás",
+    "isActive": "Aktív",
+    "type": "Típus",
+    "sourceEntity": "Forrásentitás",
+    "inBackground": "Végrehajtás a háttérben",
+    "usage": "Használat",
+    "massAction": "Tömeges művelet",
+    "display": "Megjelenítés",
+    "actionsSet": "Műveletkészlet",
+    "actions": "Műveletek",
+    "webhookUrl": "URL",
+    "executeAs": "Végrehajtás e felhasználóként",
+    "displayField": "Megjelenítési mező",
+    "focusField": "Mező",
+    "changeFields": "Mezők",
+    "targetEntity": "Célentitás",
+    "mode": "Mód",
+    "emailScript": "Szkript",
+    "showEmailPreview": "Előnézet küldés előtt",
+    "emailTemplate": "E-mail-sablon",
+    "emailTo": "E-mail címzettje",
+    "emailCc": "E-mail másolata (CC)",
+    "emailBcc": "E-mail titkos másolata (BCC)",
+    "hideTextLabel": "A gomb szöveges feliratának elrejtése",
+    "applyToPreselectedRecords": "Alkalmazás az előre kiválasztott rekordokra",
+    "updateType": "Frissítés típusa",
+    "updateFields": "Frissítendő mezők",
+    "updateScript": "Szkript",
+    "executions": "Végrehajtások",
+    "deletePermanently": "Végleges törlés"
+  },
+  "labels": {
+    "execute": "Végrehajtás",
+    "Parameters": "Paraméterek",
+    "fieldsPanel": "Frissítés"
+  },
+  "actions": {
+    "allLogs": "Összes napló"
+  },
+  "massActions": {
+    "execute": "Végrehajtás"
+  },
+  "messages": {
+    "executeNow": "Biztosan végrehajtja a kiválasztott műveletet?"
+  },
+  "options": {
+    "usage": {
+      "entity": "Entitás műveletgombja",
+      "record": "Rekord műveletgombja",
+      "field": "Mező műveletgombja",
+      "onFieldFocus": "Mező fókuszba kerülésekor",
+      "onFieldChange": "Mező módosításakor",
+      "onRecordLoad": "Rekord létrehozásakor / frissítésekor"
+    },
+    "display": {
+      "dropdown": "Legördülő lista",
+      "single": "Egyetlen"
+    },
+    "type": {
+      "create": "Létrehozás",
+      "update": "Frissítés",
+      "createOrUpdate": "Létrehozás vagy frissítés",
+      "delete": "Törlés",
+      "set": "Műveletkészlet",
+      "webhook": "Webhook",
+      "customCode": "Egyéni kód",
+      "email": "E-mail küldése"
+    },
+    "updateType": {
+      "basic": "Alap",
+      "script": "Szkript"
+    },
+    "executeAs": {
+      "system": "Rendszer",
+      "sameUser": "Ugyanaz a felhasználó"
+    },
+    "mode": {
+      "basic": "Alap",
+      "script": "Szkript"
+    }
+  },
+  "tooltips": {
+    "inBackground": "A művelet a háttérben fut, közvetlen siker- vagy hibaüzenet nélkül. Akkor használja, ha a végrehajtás több mint 30 másodpercig tart.",
+    "usage": "A használat határozza meg a művelet elhelyezését. Rekordművelet esetén az érintett rekordokat előre ki kell választani.",
+    "executeAs": "Adja meg, melyik felhasználóval hajtsa végre a rendszer a műveletet"
+  },
+  "exceptions": {
+    "expressionCannotBeEmpty": "A kifejezés nem lehet üres.",
+    "forEditModeOnly": "A(z) '%s' művelet csak szerkesztési módban érhető el, és itt nem használható."
+  }
+}

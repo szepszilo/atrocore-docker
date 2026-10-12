@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "number": "Szám",
+    "isActive": "Aktív",
+    "image": "Kép",
+    "price": "Ár",
+    "description": "Rövid leírás",
+    "longDescription": "Hosszú leírás",
+    "children": "Gyermektermékek",
+    "parents": "Szülőtermékek",
+    "quantity": "Mennyiség",
+    "mpn": "Gyártói cikkszám (MPN)",
+    "customsNumber": "Vámtarifaszám",
+    "countryOfOrigin": "Származási ország",
+    "defaultSupplier": "Alapértelmezett beszállító",
+    "note": "Jegyzet"
+  },
+  "labels": {
+    "manufacturer": "Gyártó",
+    "other": "Egyéb",
+    "MasterData": "Törzsadatok",
+    "Description": "Leírás",
+    "State": "Állapot",
+    "Taxonomy": "Taxonómia",
+    "ProductLifeCycle": "Termékéletciklus"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "fields": {
+    "type": "Típus",
+    "folder": "Mappa",
+    "storage": "Tárhely",
+    "mimeType": "MIME-típus",
+    "path": "Elérési út",
+    "thumbnailsPath": "Bélyegképek elérési útja",
+    "preview": "Előnézet",
+    "hash": "Hash",
+    "fileSize": "Fájlméret (bájt)",
+    "fileMtime": "Fájl módosításának dátuma",
+    "url": "URL",
+    "uploadUrl": "URL",
+    "width": "Szélesség",
+    "height": "Magasság",
+    "size": "Méret",
+    "colorSpace": "Színtér"
+  },
+  "labels": {
+    "Preview": "Előnézet",
+    "Upload": "Feltöltés",
+    "retry": "Újrapróbálja?",
+    "uploaded": "feltöltve",
+    "putUploadUrl": "Adja meg a fájl URL-címét, ha URL-en keresztül szeretné feltölteni",
+    "zipDownloadNotification": "A ZIP-fájlt <a href=\"?entryPoint=download&amp;id=%s\" target=\"_blank\">letöltheti</a>",
+    "Share": "Megosztás",
+    "thumbnailUrl": "Bélyegkép URL-címe (%s)"
+  },
+  "insightsPanels": {
+    "sharing": "Megosztás"
+  },
+  "messages": {
+    "notAllFilesWereUploaded": "XX fájl nem került feltöltésre a(z) YY fájlból.",
+    "fileCouldNotBeUploaded": "A fájl feltöltése sikertelen.",
+    "fileHasDuplicate": "A fájlnak már van legalább egy <a target=\"_blank\" href=\"/#File/view/{{id}}\">másodpéldánya</a>.",
+    "cannotDefineFileName": "A rendszer nem tudja felismerni a fájl nevét az URL-ből.",
+    "urlExpected": "Helytelen URL lett megadva",
+    "urlCannotBeFetched": "Az URL nem tölthető le.",
+    "fileExtensionCorrectedAutomatically": "A fájlkiterjesztés automatikusan javítva lett.",
+    "downloadJobsCreated": "Az archívum előkészítéséhez háttérfeladat jött létre."
+  },
+  "exceptions": {
+    "fileExtensionCannotBeChanged": "A fájlkiterjesztés nem módosítható.",
+    "fileStorageCannotBeChanged": "A fájl tárhelye nem módosítható.",
+    "fileFolderCannotBeChanged": "A fájl mappája nem módosítható.",
+    "fileCreateFailed": "A fájl létrehozása sikertelen.",
+    "fileMoveFailed": "A fájl áthelyezése sikertelen.",
+    "fileRenameFailed": "A fájl átnevezése sikertelen.",
+    "fileDeleteFailed": "A fájl törlése sikertelen.",
+    "fileNameNotValidByUserRegex": "A fájlnév érvénytelen. Meg kell felelnie a(z) '%s' regexmintának.",
+    "fileNameNotValid": "A fájlnév érvénytelen. Nem lehet üres, és nem tartalmazhat útvonalelválasztókat.",
+    "notAllowToFileWithEntity": "Nem kapcsolhat '%s' típusú fájlt a(z) '%s' elemhez. Csak ezek a típusok engedélyezettek: '%s'"
+  }
+}

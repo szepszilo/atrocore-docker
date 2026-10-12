@@ -1,0 +1,44 @@
+{
+  "fields": {
+    "matching": "Egyeztetés",
+    "weight": "Súly",
+    "matchingRuleSet": "Készlet",
+    "matchingRules": "Egyeztetési szabályok",
+    "operator": "Operátor",
+    "attribute": "Attribútum",
+    "matchedWhereExpression": "Találati feltétel kifejezése",
+    "matchScoreExpression": "Pontszámkifejezés"
+  },
+  "groupOptions": {
+    "field": {
+      "fields": "Mezők",
+      "attributes": "Attribútumok"
+    }
+  },
+  "options": {
+    "type": {
+      "fieldEqual": "A mező egyenlő",
+      "fieldSimilar": "A mező hasonló",
+      "fieldContains": "A mező tartalmazza",
+      "set": "Készlet",
+      "expression": "Kifejezés"
+    },
+    "operator": {
+      "and": "ÉS",
+      "or": "VAGY"
+    }
+  },
+  "exceptions": {
+    "notValidCode": "A kód csak betűket, számokat, aláhúzásjeleket és kötőjeleket tartalmazhat.",
+    "notValidMatchingActivation": "Az egyeztetési szabály csak inaktív egyeztetésnél módosítható.",
+    "notValidMatching": "Az egyeztetés érvénytelen",
+    "notValidMatchingRuleSet": "Az egyeztetési szabálykészlet érvénytelen",
+    "notValidFieldType": "A kiválasztott szabálytípus nem támogatja ezt a mezőtípust.",
+    "notValidAttributeType": "A kiválasztott szabálytípus nem támogatja ezt az attribútumtípust.",
+    "expressionCannotBeEmpty": "A kifejezés nem lehet üres."
+  },
+  "tooltips": {
+    "matchedWhereExpression": "ExpressionLanguage-kifejezés, amely hozzáfér a `stageEntity` objektumhoz (egy betöltött rekordhoz). Egy where-feltételt leíró tömböt kell visszaadnia, amely meghatározza a jelöltként figyelembe veendő törzsrekordokat. A kulcsok mezőnevek, az értékek pedig az egyeztetendő értékek (a kulcsba operátorok is beépíthetők, pl. `field>`, `field*`, az `OR`/`AND` csoportok pedig összetettebb feltételekhez egymásba ágyazhatók). Például a {nameFrFr: stageEntity.get('name')} olyan törzsrekordokat keres, amelyek nameFrFr értéke megegyezik az átmeneti rekord nevével.",
+    "matchScoreExpression": "ExpressionLanguage-kifejezés, amely hozzáfér a `stageEntity` objektumhoz (egy betöltött rekordhoz) és a `masterEntity` értékhez (a jelölt nyers mezőértékei tömbként, pl. masterEntity['name']). 0 és 1 közötti számot kell visszaadnia; ezt a szabály súlyával megszorozva kapjuk a találati pontszámot. Például a stageEntity.get('name') == masterEntity['nameFrFr'] ? 1.0 : 0.0 kifejezés pontos egyezésnél 1, minden más esetben 0 pontot ad."
+  }
+}

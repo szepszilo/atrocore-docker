@@ -1,0 +1,40 @@
+{
+  "fields": {
+    "title": "Cím",
+    "dateFrom": "Kezdő dátum",
+    "dateTo": "Záró dátum",
+    "autorefreshInterval": "Automatikus frissítés időköze",
+    "displayRecords": "Rekordok megjelenítése",
+    "isDoubleHeight": "Dupla magasság",
+    "mode": "Mód",
+    "enabledScopeList": "Megjelenítendő tartalom",
+    "users": "Felhasználók",
+    "entityType": "Entitástípus",
+    "primaryFilter": "Elsődleges szűrő",
+    "boolFilterList": "További szűrők",
+    "sortBy": "Rendezés (mező)",
+    "sortDirection": "Rendezés (irány)",
+    "expandedLayout": "Elrendezés",
+    "dateFilter": "Dátumszűrő",
+    "savedFilter": "Mentett szűrő",
+    "entityListType": "Entitáslista típusa"
+  },
+  "options": {
+    "mode": {
+      "agendaWeek": "Hét (napirend)",
+      "basicWeek": "Hét",
+      "month": "Hónap",
+      "basicDay": "Nap",
+      "agendaDay": "Nap (napirend)",
+      "timeline": "Idővonal"
+    },
+    "entityListType": {
+      "all": "Összes",
+      "navigation": "Navigációs elemek",
+      "favorites": "Kedvencek"
+    }
+  },
+  "messages": {
+    "selectEntityType": "Válasszon entitástípust a vezérlőelem beállításai között."
+  }
+}
