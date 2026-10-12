@@ -51,6 +51,9 @@ RUN mkdir -p /opt/atrocore-template \
 COPY railway/configure-runtime.php /usr/local/bin/atrocore-configure-runtime.php
 COPY railway/startup.sh /usr/local/bin/atrocore-railway-startup
 
+# Hungarian translations
+COPY translations/hu_HU /opt/atrocore-translations/hu_HU
+
 RUN chmod +x /usr/local/bin/atrocore-railway-startup
 
 ENV ATROCORE_APP_DIR=/var/www/atrocore
