@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "source": "Forrás",
+    "sourceEntity": "Forrásentitás",
+    "sourceEntityId": "Forrásentitás azonosítója",
+    "master": "Törzs",
+    "masterEntity": "Törzsentitás",
+    "masterEntityId": "Törzsentitás azonosítója",
+    "score": "Pontszám",
+    "hash": "Egyedi hash",
+    "hasCluster": "Klaszterrel rendelkezik",
+    "clusterItems": "Klaszterelemek"
+  },
+  "options": {
+    "type": {
+      "duplicate": "Másolás",
+      "masterRecord": "Törzsrekord"
+    }
+  }
+}

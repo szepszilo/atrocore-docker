@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "role": "Szerepkör"
+  },
+  "options": {
+    "role": {
+      "main": "Fő",
+      "additional": "Kiegészítő"
+    }
+  },
+  "tooltips": {
+    "role": "Válassza a Fő lehetőséget, ha ezt a nyelvet szeretné a tartalom elsődleges nyelvének. A Kiegészítő lehetőség a fordítás célnyelveihez használható."
+  },
+  "exceptions": {
+    "mainLanguageIsAlreadyExists": "A fő nyelv már létezik.",
+    "roleCannotBeChanged": "A szerepkör nem módosítható.",
+    "codeForAdditionalCannotBeChanged": "A kiegészítő nyelv kódja nem módosítható.",
+    "mainLanguageCannotBeRemoved": "A fő nyelv nem távolítható el."
+  }
+}

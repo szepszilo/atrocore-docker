@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "name": "Név",
+    "emailAddress": "E-mail",
+    "phoneNumber": "Telefon",
+    "description": "Leírás",
+    "type": "Típus",
+    "role": "Szerepkör",
+    "number": "Szám",
+    "language": "Nyelv",
+    "addresses": "Címek",
+    "contacts": "Kapcsolattartók"
+  },
+  "options": {
+    "type": {
+      "individual": "Magánszemély",
+      "company": "Vállalat"
+    },
+    "role": {
+      "supplier": "Beszállító",
+      "customer": "Vevő"
+    }
+  },
+  "exceptions": {
+    "defaultAddressAlreadyExist": "Az ügyfél alapértelmezett címe már létezik."
+  }
+}

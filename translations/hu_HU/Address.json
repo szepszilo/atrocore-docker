@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "buyer": "Beszerző",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "street": "Utca",
+    "zip": "Irányítószám",
+    "box": "Postafiók",
+    "city": "Város",
+    "country": "Ország",
+    "type": "Típus",
+    "account": "Ügyfél",
+    "contactName": "Kapcsolattartó neve",
+    "name": "Vállalat neve",
+    "prospect": "Lehetséges ügyfelek",
+    "accounts": "Ügyfelek",
+    "contacts": "Kapcsolattartók"
+  },
+  "options": {
+    "type": {
+      "billing": "Számlázás",
+      "delivery": "Szállítás"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "name": "Csoport neve",
+    "description": "Leírás",
+    "code": "Kód",
+    "isActive": "Aktív",
+    "attributes": "Attribútumok",
+    "sortOrder": "Rendezési sorrend"
+  },
+  "messages": {
+    "unlinkAttributeGroupConfirmation": "Biztosan leválasztja az attribútumcsoport összes attribútumát?"
+  },
+  "exceptions": {
+    "attributeGroupSsLinkedWithAttributes": "Az attribútumcsoporthoz még kapcsolódnak attribútumok. Előbb válassza le őket.",
+    "entityIsUsed": "Az attribútumcsoport nem törölhető, mert egy vagy több attribútum használja."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "treoNotifications": {
+    "newModule": "Új '{{moduleName}}' modul érhető el. <a href=\"/#ModuleManager/list\">Részletek</a>",
+    "newModuleVersion": "Új '{{moduleVersion}}' verzió érhető el a(z) '{{moduleName}}' modulhoz. <a href=\"/#ModuleManager/list\">Részletek</a>.",
+    "newCoreVersion": "Új '%s' verzió érhető el a Treo rendszerhez. <a href=\"/#Admin/upgrade\">Részletek</a>"
+  }
+}

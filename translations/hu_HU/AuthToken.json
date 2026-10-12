@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "user": "Felhasználó",
+    "ipAddress": "IP-cím",
+    "lastAccess": "Utolsó hozzáférés dátuma",
+    "createdAt": "Bejelentkezés dátuma",
+    "isActive": "Aktív",
+    "lifetime": "Élettartam",
+    "idleTime": "Inaktivitási idő",
+    "authToken": "Hitelesítési token",
+    "actionHistoryRecords": "Műveleti előzmények"
+  },
+  "tooltips": {
+    "lifetime": "Az élettartamot órában kell megadni. A nulla azt jelenti, hogy nem jár le.",
+    "idleTime": "Az inaktivitási időt órában kell megadni. A nulla azt jelenti, hogy nem jár le."
+  },
+  "messages": {
+    "authTokenCreated": "A hitelesítési token csak egyszer jelenik meg. Másolja le és mentse most: később nem jeleníthető meg újra."
+  }
+}

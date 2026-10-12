@@ -1,0 +1,61 @@
+{
+  "fields": {
+    "sortOrder": "Rendezési sorrend",
+    "currentVersion": "Jelenlegi verzió",
+    "latestVersion": "Legújabb verzió",
+    "targetVersion": "Célverzió",
+    "targetVersions": "Célverziók",
+    "usage": "Használat",
+    "expirationDate": "Lejárati dátum",
+    "installed": "Telepítve"
+  },
+  "labels": {
+    "saveAndUpdate": "Mentés és frissítés",
+    "latest": "legújabb",
+    "update": "Rendszer frissítése",
+    "toStore": "AtroCore Áruház",
+    "installModules": "Modulok telepítése",
+    "uninstallModules": "Modulok eltávolítása",
+    "lastUpdate": "Utolsó frissítés",
+    "notInstalled": "Nincs telepítve"
+  },
+  "lastUpdateStatuses": {
+    "Success": "Sikeres",
+    "Failed": "Sikertelen"
+  },
+  "massActionConfirmMessages": {
+    "update": "A frissítés után minden felhasználó kijelentkezik a rendszerből. Biztosan frissíti a rendszert?"
+  },
+  "actions": {
+    "showReleaseNotes": "Kiadási megjegyzések",
+    "readDocs": "Dokumentáció",
+    "updatePackage": "Frissítés",
+    "installPackage": "Telepítés",
+    "uninstallPackage": "Eltávolítás"
+  },
+  "actionConfirms": {
+    "updatePackage": "Biztosan frissíti ezt a modult? A frissítés ideje alatt a rendszer nem lesz elérhető.",
+    "installPackage": "Biztosan telepíti ezt a modult? A telepítés ideje alatt a rendszer nem lesz elérhető.",
+    "uninstallPackage": "Biztosan eltávolítja ezt a modult? A modulhoz tartozó összes adat elvész. A művelet nem vonható vissza."
+  },
+  "options": {
+    "usage": {
+      "Public": "Ingyenes",
+      "Rent": "Bérelt",
+      "Purchase": "Megvásárolt"
+    }
+  },
+  "exceptions": {
+    "jobManagerRunning": "A rendszer nem frissíthető, mert a feladatkezelőben futó feladatok vannak. Próbálja meg később.",
+    "daemonNotAlive": "A művelet nem hajtható végre, mert az ütemezett feladatok nem futnak. Valószínűleg hibás a crontab beállítása, vagy probléma van a kiszolgálón. A kiszolgáló megfelelő beállításához olvassa el a telepítési útmutatót.",
+    "invalidTargetVersion": "A kiválasztott célverzió nem érhető el ehhez a modulhoz."
+  },
+  "notifications": {
+    "Module update": "A(z) {module} modul frissült a(z) {from} verzióról a(z) {to} verzióra.",
+    "System update": "A rendszer frissült a(z) {from} verzióról a(z) {to} verzióra.",
+    "Module install": "A(z) {module} modul v.{version} verziója telepítve.",
+    "Module delete": "A(z) {module} modul eltávolítva.",
+    "Module downgrade": "A(z) {module} modul visszaállítva a(z) {from} verzióról a(z) {to} verzióra.",
+    "System downgrade": "A rendszer visszaállítva a(z) {from} verzióról a(z) {to} verzióra."
+  }
+}

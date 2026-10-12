@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "name": "Név",
+    "description": "Leírás",
+    "measure": "Mennyiségfajta",
+    "isMain": "Fő",
+    "multiplier": "Szorzó",
+    "convertTo": "Átalakítás erre:",
+    "symbol": "Jel",
+    "isActive": "Aktív"
+  },
+  "exceptions": {
+    "defaultIsRequired": "A mennyiségfajtához alapértelmezett mértékegység szükséges.",
+    "unitIsUsed": "A(z) '%s' mértékegységet a(z) '%s' mező használja a(z) '%s' entitásban, a(z) '%s' rekordnál.",
+    "unitIsUsedOnClassificationAttribute": "A(z) '%s' mértékegységet a(z) '%s' attribútum használja a(z) '%s' osztályozásban.",
+    "unitIsUsedOnEntityAttribute": "A(z) '%s' mértékegységet a(z) '%s' attribútum használja ebben: %s '%s'.",
+    "multiplierCannotBeZero": "A mértékegység szorzója nem lehet nulla."
+  }
+}

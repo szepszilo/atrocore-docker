@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "name": "Név",
+    "roles": "Szerepkörök",
+    "users": "Felhasználók",
+    "notes": "Jegyzetek",
+    "languageRestricted": "Nyelvi korlátozás",
+    "languages": "Nyelvek"
+  },
+  "tooltips": {
+    "roles": "Hozzáférési szerepkörök. A csapat felhasználói a kiválasztott szerepkörökből kapják a hozzáférési szintjüket.",
+    "languageRestricted": "Ha engedélyezett, a csapat felhasználói csak a kifejezetten felsorolt nyelvekhez férnek hozzá. Ha letiltott, nincs nyelvi szűrés."
+  }
+}

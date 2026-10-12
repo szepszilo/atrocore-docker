@@ -1,0 +1,107 @@
+{
+  "fields": {
+    "name": "Név egyes számban",
+    "namePlural": "Név többes számban",
+    "uniqueIndexes": "Egyedi indexek",
+    "code": "Rendszernév",
+    "disabled": "Letiltva",
+    "customizable": "Testreszabható",
+    "hasArchive": "Archiválható",
+    "hasActive": "Aktiválható",
+    "hideFieldTypeFilters": "Mezőtípus-szűrők elrejtése",
+    "streamDisabled": "Tevékenységek letiltása",
+    "iconClass": "Ikon",
+    "sortBy": "Alapértelmezett rendezési mező",
+    "sortDirection": "Alapértelmezett rendezési irány",
+    "statusField": "Állapotmező",
+    "kanbanViewMode": "Kanban nézet",
+    "kanbanStatusIgnoreList": "Kihagyott listák a Kanban nézetben",
+    "quickActions": "Gyorsműveletek",
+    "deleteWithoutConfirmation": "Törlés megerősítés nélkül",
+    "autoDeleteAfterDays": "Automatikus törlés időszaka, napokban",
+    "clearDeletedAfterDays": "Végleges törlés időszaka, napokban",
+    "modifiedExtendedRelations": "A módosítás dátumát és idejét befolyásoló kapcsolatok",
+    "duplicatableRelations": "Másolható kapcsolatok",
+    "hasAssignedUser": "Hozzárendelt felhasználó engedélyezése",
+    "hasTeam": "Csapatok engedélyezése",
+    "hasOwner": "Tulajdonos engedélyezése",
+    "multiParents": "Több szülő",
+    "dragAndDrop": "Fogd és vidd",
+    "fieldValueInheritance": "Mezőértékek öröklése",
+    "unInheritedFields": "Nem öröklődő mezők",
+    "relationInheritance": "Kapcsolatok öröklése",
+    "unInheritedRelations": "Nem öröklődő kapcsolatok",
+    "fields": "Mezők",
+    "auditedDisabledFields": "Rekordtevékenység naplózásából kihagyott mezők",
+    "auditedEnabledRelations": "Rekordtevékenység naplózása a kapcsolatoknál",
+    "hasAttribute": "Attribútumok használata",
+    "hasClassification": "Osztályozások használata",
+    "singleClassification": "Csak egy osztályozás",
+    "disableAttributeLinking": "Közvetlen attribútum-hozzárendelés letiltása",
+    "hasAssociate": "Társított rekordok használata",
+    "textFilterFields": "Szöveges szűrő mezői",
+    "nonDuplicatableFields": "Nem másolható mezők",
+    "deleteValuesAfterUnlinkingClassification": "Attribútumértékek törlése az osztályozások leválasztása után",
+    "linkAttributesWithClassificationAutomatically": "Attribútumok automatikus hozzárendelése az osztályozáshoz",
+    "primaryEntity": "Elsődleges entitás",
+    "derivativeEntities": "Származtatott entitások",
+    "role": "Szerepkör",
+    "containsPersonalData": "Személyes adatokat tartalmaz",
+    "isPerson": "Személy"
+  },
+  "options": {
+    "type": {
+      "Base": "Alap",
+      "Hierarchy": "Hierarchia",
+      "ReferenceData": "Referencia",
+      "Archive": "Archívum"
+    },
+    "sortDirection": {
+      "asc": "Növekvő",
+      "desc": "Csökkenő"
+    },
+    "role": {
+      "base": "Alap",
+      "contributor": "Adatközlő"
+    }
+  },
+  "labels": {
+    "accessManagement": "Hozzáférés-kezelés",
+    "hierarchyManagement": "Hierarchia kezelése",
+    "other": "Egyéb",
+    "resetToDefault": "Alapértelmezés visszaállítása",
+    "attributes": "Attribútumok",
+    "derivation": "Származtatás"
+  },
+  "confirmations": {
+    "resetToDefault": "Biztosan visszaállítja a konfiguráció alapértelmezett értékeit?"
+  },
+  "tooltips": {
+    "clearDeletedAfterDays": "Az entitás rekordjai a törlés dátuma után XX nappal véglegesen törlődnek.",
+    "autoDeleteAfterDays": "Az entitás rekordjai az utolsó módosítás dátuma után XX nappal törlődnek.",
+    "disabled": "Jelölje be, ha nincs szüksége erre az entitásra a rendszerben.",
+    "statusField": "A mező változásai a Tevékenységek között kerülnek naplózásra.",
+    "deleteWithoutConfirmation": "Ha be van jelölve, az egyes rekordok felhasználói megerősítés nélkül törlődnek. Több rekord törlését továbbra is meg kell erősíteni.",
+    "modifiedExtendedRelations": "E kapcsolatok módosítása frissíti a „Módosítás ideje” dátumát és időpontját.",
+    "dragAndDrop": "Ez a beállítás bekapcsolja a hierarchikus rendezést. A hierarchikus navigációban ilyenkor más rendezés nem lehetséges.",
+    "unInheritedFields": "E mezők értékei nem öröklődnek a szülőelemtől.",
+    "unInheritedRelations": "Az ezekkel az entitásokkal fennálló kapcsolatok nem öröklődnek a szülőelemtől.",
+    "hasAssignedUser": "Hozzárendelt felhasználó engedélyezése a hozzáférés-kezeléshez.",
+    "hasTeam": "Csapatok engedélyezése a hozzáférés-kezeléshez.",
+    "hasOwner": "Tulajdonos engedélyezése a hozzáférés-kezeléshez.",
+    "streamDisabled": "Ha be van jelölve, a rekord részleteinek oldalán nem jelenik meg a Tevékenységek panel. Jegyzetek hozzáadása nem lesz lehetséges.",
+    "disableActionHistory": "Ha be van jelölve, az entitás rekordjain végzett felhasználói műveletek nem kerülnek naplózásra.",
+    "auditedDisabledFields": "E mezők módosításai nem jelennek meg tevékenységként.",
+    "auditedEnabledRelations": "E kapcsolatok módosításai megjelennek tevékenységként.",
+    "linkAttributesWithClassificationAutomatically": "Ha egy attribútum közvetlenül kapcsolódik egy rekordhoz, és a rekord egy osztályozáshoz kapcsolódik, az attribútum ahhoz az osztályozáshoz is hozzá lesz rendelve."
+  },
+  "exceptions": {
+    "derivativeWithSuchRoleExists": "Már létezik ilyen szerepkörű származtatott entitás.",
+    "derivativeFromDerivativeNotSupporting": "Származtatott entitásból nem hozható létre újabb származtatott entitás.",
+    "parentsAndChildrenShouldNotBeInModifiedExtendedRelations": "A(z) {parents} és {children} nem szerepelhet egyszerre a módosítás dátumát és idejét befolyásoló kapcsolatok között.",
+    "entityAlreadyHasAttributesInUse": "Az Attribútumok használata paraméter nem kapcsolható ki. Előbb távolítsa el az összes kapcsolódó attribútumot.",
+    "entityHasDirectlyLinkedAttributes": "Már vannak közvetlenül hozzárendelt attribútumok. Távolítsa el őket a rekordokról.",
+    "entityTypeIsNotSuitableForAssociates": "Ez az entitástípus nem használhatja a „Társított rekordok használata” paramétert. Ez csak az „Alap” és a „Hierarchia” típusnál engedélyezett.",
+    "cannotRemoveDerivativeDirectly": "A származtatott entitások közvetlenül nem törölhetők."
+  }
+}

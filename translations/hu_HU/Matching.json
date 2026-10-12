@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "minimumScore": "Minimális pontszám, %",
+    "entity": "Entitás",
+    "masterEntity": "Törzsentitás",
+    "matchingRules": "Egyeztetési szabályok",
+    "matchedRecords": "Egyező rekordok",
+    "matchedRecordsMax": "Egyező rekordok maximális száma"
+  },
+  "options": {
+    "type": {
+      "duplicate": "Másodpéldány – másodpéldány",
+      "masterRecord": "Adatközlő – törzs"
+    }
+  },
+  "labels": {
+    "configureMatching": "Egyeztetés beállítása"
+  },
+  "tooltips": {
+    "matchedRecordsMax": "Ha bármely rekord egyező rekordjainak száma meghaladja ezt az értéket, az egyeztetés deaktiválódik. Korlátlan számú egyező rekord engedélyezéséhez hagyja üresen ezt a mezőt. "
+  },
+  "exceptions": {
+    "noRules": "Az aktiválás blokkolva. Ehhez az egyeztetéshez nincsenek egyeztetési szabályok megadva.",
+    "masterRecordEntityInvalid": "A(z) %s entitás nem használható törzsrekord-egyeztetéshez. Csak Átmeneti szerepkörű származtatott entitás engedélyezett."
+  }
+}

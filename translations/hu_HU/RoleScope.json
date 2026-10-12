@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "name": "Hatókör",
+    "role": "Szerepkör",
+    "hasAccess": "Hozzáférés",
+    "createAction": "Létrehozás",
+    "readAction": "Olvasás",
+    "editAction": "Szerkesztés",
+    "deleteAction": "Törlés",
+    "streamAction": "Tevékenységek",
+    "fields": "Mezők",
+    "accessData": "Hozzáférési adatok",
+    "createAttributeValueAction": "Attribútumérték létrehozása",
+    "deleteAttributeValueAction": "Attribútumérték törlése",
+    "attributes": "Attribútumok",
+    "attributePanels": "Attribútumpanelek"
+  },
+  "labels": {
+    "all": "Összes",
+    "team": "Csapat",
+    "own": "Saját",
+    "no": "Nem",
+    "yes": "Igen"
+  }
+}

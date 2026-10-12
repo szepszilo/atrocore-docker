@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "entity": "Entitás",
+    "viewType": "Nézet típusa",
+    "relatedEntity": "Kapcsolódó entitás",
+    "layoutProfile": "Elrendezésprofil"
+  },
+  "groupOptions": {
+    "viewType": {
+      "view": "Megtekintés",
+      "viewGroup": "Nézetcsoport"
+    }
+  },
+  "tooltips": {
+    "entity": "Az az entitás, amelyhez az elrendezést beállítja.",
+    "relatedEntity": "Az a fő entitás, amelynek oldaláról a fent kiválasztott entitás elrendezése megjelenik."
+  },
+  "messages": {
+    "cannotRemoveFieldFromLayout": "A(z) '%s' mező nem távolítható el az elrendezésből.",
+    "compositeAttributeNotAllowedInList": "Összetett attribútum nem adható a listaelrendezéshez."
+  }
+}
