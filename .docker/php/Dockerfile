@@ -51,7 +51,7 @@ RUN chmod +x scripts/*.sh && mkdir -p /var/spool/cron/crontabs/ \
     && chown www-data:crontab /var/spool/cron/crontabs/www-data \
     && chmod 600 /var/spool/cron/crontabs/www-data \
     && rm -rf scripts && mkdir -p /var/www/.cache && chown www-data:www-data /var/www/.cache
-
+COPY translations/hu_HU /opt/atrocore-translations/hu_HU
 COPY startup.sh /startup.sh
 RUN chmod +x /startup.sh
 
