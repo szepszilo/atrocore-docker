@@ -101,7 +101,50 @@ fi
 if [ -d "${APP_DIR}/upload" ]; then
     chmod -R ug+rwX "${APP_DIR}/upload"
 fi
+# ---------------------------------------------------------
+# Magyar fordítások
+# ---------------------------------------------------------
 
+echo "Installing Hungarian translations..."
+
+HU_SOURCE="/opt/atrocore-translations/hu_HU"
+HU_TARGET="${APP_DIR}/app/Atro/Resources/i18n/hu_HU"
+
+if [ -d "${HU_SOURCE}" ]; then
+    mkdir -p "${HU_TARGET}"
+
+    cp -a "${HU_SOURCE}/." "${HU_TARGET}/"
+
+    chown -R www-data:www-data "${HU_TARGET}"
+
+    echo "Hungarian translation files copied."
+
+    echo "Refreshing AtroCore translations..."
+
+    REFRESH_OK=0
+    ATTEMPT=1
+
+    while [ "${ATTEMPT}" -le 30 ]; do
+        if su -s /bin/sh www-data -c \
+            "cd '${APP_DIR}' && php console.php refresh translations"; then
+
+            REFRESH_OK=1
+            echo "Hungarian translations refreshed successfully."
+            break
+        fi
+
+        echo "Translation refresh failed. Retry ${ATTEMPT}/30 in 2 seconds..."
+
+        ATTEMPT=$((ATTEMPT + 1))
+        sleep 2
+    done
+
+    if [ "${REFRESH_OK}" -eq 0 ]; then
+        echo "WARNING: Translation refresh could not be completed."
+    fi
+else
+    echo "WARNING: Hungarian translation source directory not found."
+fi
 # ---------------------------------------------------------
 # Apache MPM fix
 # ---------------------------------------------------------
